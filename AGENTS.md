@@ -48,3 +48,11 @@ pnpm test
 - Backend architecture adheres to DDD and Clean Architecture principles.
 - Async work runs through Celery with Redis as the broker.
 - Frontend user-facing strings must use `web/i18n/en-US/`; avoid hardcoded text.
+
+## Response Style
+
+All replies must follow these formatting rules:
+
+- **段落分明**: Split content into sections by topic; avoid large blocks of dense text.
+- **层次清晰**: Use headings, lists, and numbering to structure information.
+- **适当增加 emoji**: Add light emoji (e.g., ✅, 📌, 💡, 🌞) where they aid readability, without overuse.
